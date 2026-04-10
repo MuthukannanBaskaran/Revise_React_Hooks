@@ -186,7 +186,6 @@
   }
 }
 
-
 .btn-usestate {
   display: inline-block;
   padding: 1rem;
@@ -203,10 +202,28 @@
   }
 }
 
+.btn-home {
+  color: var(--text-h);
+  font-size: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  border: 0.125rem solid transparent;
+  border-radius: 1rem;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
 .span-usestate {
   display: inline-block;
   margin: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
   color: var(--text);
+}
+
+.ul-link {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  text-decoration: underline;
 }

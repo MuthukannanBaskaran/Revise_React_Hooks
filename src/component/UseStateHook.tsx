@@ -1,4 +1,5 @@
 import { useState } from "react";
+import GoHome from "./GoHome";
 
 export default function UseStateHook() {
     const [count, setCount] = useState<number>(0);
@@ -8,6 +9,7 @@ export default function UseStateHook() {
 
     return (
         <>
+            <GoHome />
             <div>
                 <h1>UseState Hook</h1>
             </div>

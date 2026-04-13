@@ -227,3 +227,7 @@
   padding: 0.5rem;
   text-decoration: underline;
 }
+
+.div-UseMemo{
+  border: 0.125rem solid blue;
+}

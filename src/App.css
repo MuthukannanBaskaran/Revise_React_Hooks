@@ -231,3 +231,8 @@
 .div-UseMemo{
   border: 0.125rem solid blue;
 }
+
+.btn-usecontext{
+  width: 10rem;
+  align-items: center;
+}

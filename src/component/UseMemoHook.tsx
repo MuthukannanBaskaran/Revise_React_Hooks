@@ -37,7 +37,7 @@ export default function UseMemoHook() {
 
 function sum(num: number): number {
     console.log("sum called start", new Date().toUTCString());
-    for (let i = 0; i < 1000000000; i++) {
+    for (let i = 0; i < 1000000; i++) {
         num += i;
     }
     console.log("sum called end", new Date().toUTCString());

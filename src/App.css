@@ -236,3 +236,11 @@
   width: 10rem;
   align-items: center;
 }
+
+
+.div-callback {
+  height: 5rem;
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}

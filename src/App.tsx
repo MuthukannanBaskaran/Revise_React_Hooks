@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import UseContextHook from './component/UseContextHook'
 import ThemeProvider from './component/ThemeProvider'
 import UseReducerHook from './component/UseReducerHook'
+import UseCallBackHook from './component/UseCallBackHook'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <li><Link to="/usememohook">UseMemo Hook</Link></li>
             <li><Link to="/usecontexthook">UseContext Hook</Link></li>
             <li><Link to="/usereducerhook">UseReducer Hook</Link></li>
+            <li><Link to="/usecallbackhook">UseCallBack Hook</Link></li>
           </ul>
 
           <Routes>
@@ -32,6 +34,7 @@ export default function App() {
             <Route path='/usememohook' element={<UseMemoHook />}></Route>
             <Route path='/usecontexthook' element={<UseContextHook />}></Route>
             <Route path='/usereducerhook' element={<UseReducerHook />}></Route>
+            <Route path='/usecallbackhook' element={<UseCallBackHook />}></Route>
           </Routes>
         </BrowserRouter>
       </ThemeProvider>
